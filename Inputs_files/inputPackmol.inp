@@ -1,0 +1,32 @@
+#Archivo de entrada de packmol escrito durante la ejecucion de eafitdm
+#Codigo diseñado por Jorge David Caro y Cesar Augusto Perez
+#Codigo escrito por Cesar Augusto Perez, Julio de 2022
+tolerance	2.0
+seed -1
+nloop0 1000
+filetype xyz
+output system.xyz
+
+#Sistema tipo mip
+structure curcumin.xyz
+    number 1
+    inside box 0.00	0.00	0.00	65.00	65.00	65.00
+    atoms 28
+         inside box 31.20	31.20	31.20	33.80	33.80	33.80
+     end atoms
+end structure
+
+structure acrylamide.xyz
+    number 100
+    inside box 0.00	0.00	0.00	65.00	65.00	65.00
+end structure
+
+structure egdma.xyz
+    number 400
+    inside box 0.00	0.00	0.00	65.00	65.00	65.00
+end structure
+
+structure acetonitrile.xyz
+    number 1000
+    inside box 0.00	0.00	0.00	65.00	65.00	65.00
+end structure
