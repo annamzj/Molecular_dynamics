@@ -1,0 +1,613 @@
+#################################################################################
+#Archivo en formato moltemplate, traducido a partir de la salida tipo lammps
+#producida por la aplicacion en linea LiParGen
+#################################################################################
+curcumin { 
+     write('Data Atoms') { 
+		$atom:H1	$mol:.	@atom:H1	0.44660	1.38822	2.10465	0.12693	
+		$atom:O2	$mol:.	@atom:O2	-0.71180	0.72824	1.40662	0.01214	
+		$atom:C3	$mol:.	@atom:C3	0.35110	0.20798	1.12053	1.23273	
+		$atom:C4	$mol:.	@atom:C4	-0.14970	-0.77661	0.14722	1.36039	
+		$atom:C5	$mol:.	@atom:C5	0.03370	0.66000	1.80552	2.37432	
+		$atom:H6	$mol:.	@atom:H6	0.16520	-1.11212	-0.36907	0.46907	
+		$atom:C7	$mol:.	@atom:C7	-0.10910	-1.31154	-0.14559	2.60730	
+		$atom:O8	$mol:.	@atom:O8	-0.32840	1.62996	2.73884	2.11168	
+		$atom:C9	$mol:.	@atom:C9	-0.16810	0.12793	1.50968	3.61833	
+		$atom:H10	$mol:.	@atom:H10	0.15620	-2.07897	-0.90529	2.68329	
+		$atom:C11	$mol:.	@atom:C11	-0.07950	-0.87207	0.52603	3.75746	
+		$atom:C12	$mol:.	@atom:C12	-0.04230	2.13011	3.51478	3.19504	
+		$atom:H13	$mol:.	@atom:H13	0.15450	0.47152	2.03302	4.50125	
+		$atom:C14	$mol:.	@atom:C14	-0.04890	-1.39695	0.26003	5.08769	
+		$atom:H15	$mol:.	@atom:H15	0.09830	2.60831	2.87774	3.94586	
+		$atom:H16	$mol:.	@atom:H16	0.09830	1.32892	4.09656	3.66188	
+		$atom:H17	$mol:.	@atom:H17	0.09830	2.86875	4.18914	2.76567	
+		$atom:C18	$mol:.	@atom:C18	-0.27050	-2.37732	-0.59506	5.43120	
+		$atom:H19	$mol:.	@atom:H19	0.15810	-0.95109	0.82741	5.90182	
+		$atom:C20	$mol:.	@atom:C20	0.42320	-2.80510	-0.73515	6.83456	
+		$atom:H21	$mol:.	@atom:H21	0.16480	-2.90495	-1.18618	4.69199	
+		$atom:C22	$mol:.	@atom:C22	-0.28970	-3.91918	-1.73694	7.10704	
+		$atom:O23	$mol:.	@atom:O23	-0.43920	-2.30039	-0.11529	7.75713	
+		$atom:C24	$mol:.	@atom:C24	0.41340	-5.25400	-1.38904	6.45006	
+		$atom:H25	$mol:.	@atom:H25	0.14720	-4.06087	-1.81710	8.18872	
+		$atom:H26	$mol:.	@atom:H26	0.14720	-3.61618	-2.73054	6.74886	
+		$atom:C27	$mol:.	@atom:C27	-0.28720	-6.36273	-2.32104	6.74113	
+		$atom:O28	$mol:.	@atom:O28	-0.44420	-5.38019	-0.40980	5.73434	
+		$atom:C29	$mol:.	@atom:C29	-0.02980	-7.57076	-2.14739	6.17238	
+		$atom:H30	$mol:.	@atom:H30	0.15720	-6.15782	-3.14813	7.41314	
+		$atom:C31	$mol:.	@atom:C31	-0.08300	-8.76464	-2.96271	6.32922	
+		$atom:H32	$mol:.	@atom:H32	0.16610	-7.66040	-1.29388	5.50359	
+		$atom:C33	$mol:.	@atom:C33	-0.10780	-8.85108	-4.04251	7.21498	
+		$atom:C34	$mol:.	@atom:C34	-0.17480	-9.89224	-2.64764	5.54447	
+		$atom:H35	$mol:.	@atom:H35	0.14750	-8.00915	-4.30917	7.84109	
+		$atom:C36	$mol:.	@atom:C36	-0.21970	-10.02315	-4.78214	7.30495	
+		$atom:H37	$mol:.	@atom:H37	0.16150	-9.82606	-1.81055	4.86235	
+		$atom:C38	$mol:.	@atom:C38	0.11370	-11.06733	-3.38283	5.62576	
+		$atom:H39	$mol:.	@atom:H39	0.14830	-10.08560	-5.61783	7.99606	
+		$atom:C40	$mol:.	@atom:C40	0.34920	-11.13234	-4.46870	6.52350	
+		$atom:O41	$mol:.	@atom:O41	-0.28590	-12.19107	-3.14592	4.90299	
+		$atom:O42	$mol:.	@atom:O42	-0.69750	-12.30045	-5.16241	6.57678	
+		$atom:C43	$mol:.	@atom:C43	-0.05490	-12.17068	-2.08145	3.96144	
+		$atom:H44	$mol:.	@atom:H44	0.43010	-12.22540	-5.86861	7.22766	
+		$atom:H45	$mol:.	@atom:H45	0.09740	-11.40162	-2.24062	3.19755	
+		$atom:H46	$mol:.	@atom:H46	0.09740	-12.00379	-1.11691	4.45316	
+		$atom:H47	$mol:.	@atom:H47	0.09750	-13.15311	-2.08399	3.49291	
+     }
+
+     write_once('Data Masses') { 
+        @atom:H1    1.00800
+        @atom:O2    15.99900
+        @atom:C3    12.01100
+        @atom:C4    12.01100
+        @atom:C5    12.01100
+        @atom:H6    1.00800
+        @atom:C7    12.01100
+        @atom:O8    15.99900
+        @atom:C9    12.01100
+        @atom:H10    1.00800
+        @atom:C11    12.01100
+        @atom:C12    12.01100
+        @atom:H13    1.00800
+        @atom:C14    12.01100
+        @atom:H15    1.00800
+        @atom:H16    1.00800
+        @atom:H17    1.00800
+        @atom:C18    12.01100
+        @atom:H19    1.00800
+        @atom:C20    12.01100
+        @atom:H21    1.00800
+        @atom:C22    12.01100
+        @atom:O23    15.99900
+        @atom:C24    12.01100
+        @atom:H25    1.00800
+        @atom:H26    1.00800
+        @atom:C27    12.01100
+        @atom:O28    15.99900
+        @atom:C29    12.01100
+        @atom:H30    1.00800
+        @atom:C31    12.01100
+        @atom:H32    1.00800
+        @atom:C33    12.01100
+        @atom:C34    12.01100
+        @atom:H35    1.00800
+        @atom:C36    12.01100
+        @atom:H37    1.00800
+        @atom:C38    12.01100
+        @atom:H39    1.00800
+        @atom:C40    12.01100
+        @atom:O41    15.99900
+        @atom:O42    15.99900
+        @atom:C43    12.01100
+        @atom:H44    1.00800
+        @atom:H45    1.00800
+        @atom:H46    1.00800
+        @atom:H47    1.00800
+     }
+     write('Data Bonds') { 
+		$bond:O2H1	@bond:O2H1	$atom:O2	$atom:H1
+		$bond:C3O2	@bond:C3O2	$atom:C3	$atom:O2
+		$bond:C4C3	@bond:C4C3	$atom:C4	$atom:C3
+		$bond:C5C3	@bond:C5C3	$atom:C5	$atom:C3
+		$bond:H6C4	@bond:H6C4	$atom:H6	$atom:C4
+		$bond:C7C4	@bond:C7C4	$atom:C7	$atom:C4
+		$bond:O8C5	@bond:O8C5	$atom:O8	$atom:C5
+		$bond:C9C5	@bond:C9C5	$atom:C9	$atom:C5
+		$bond:H10C7	@bond:H10C7	$atom:H10	$atom:C7
+		$bond:C11C7	@bond:C11C7	$atom:C11	$atom:C7
+		$bond:C12O8	@bond:C12O8	$atom:C12	$atom:O8
+		$bond:H13C9	@bond:H13C9	$atom:H13	$atom:C9
+		$bond:C14C11	@bond:C14C11	$atom:C14	$atom:C11
+		$bond:H15C12	@bond:H15C12	$atom:H15	$atom:C12
+		$bond:H16C12	@bond:H16C12	$atom:H16	$atom:C12
+		$bond:H17C12	@bond:H17C12	$atom:H17	$atom:C12
+		$bond:C18C14	@bond:C18C14	$atom:C18	$atom:C14
+		$bond:H19C14	@bond:H19C14	$atom:H19	$atom:C14
+		$bond:C20C18	@bond:C20C18	$atom:C20	$atom:C18
+		$bond:H21C18	@bond:H21C18	$atom:H21	$atom:C18
+		$bond:C22C20	@bond:C22C20	$atom:C22	$atom:C20
+		$bond:O23C20	@bond:O23C20	$atom:O23	$atom:C20
+		$bond:C24C22	@bond:C24C22	$atom:C24	$atom:C22
+		$bond:H25C22	@bond:H25C22	$atom:H25	$atom:C22
+		$bond:H26C22	@bond:H26C22	$atom:H26	$atom:C22
+		$bond:C27C24	@bond:C27C24	$atom:C27	$atom:C24
+		$bond:O28C24	@bond:O28C24	$atom:O28	$atom:C24
+		$bond:C29C27	@bond:C29C27	$atom:C29	$atom:C27
+		$bond:H30C27	@bond:H30C27	$atom:H30	$atom:C27
+		$bond:C31C29	@bond:C31C29	$atom:C31	$atom:C29
+		$bond:H32C29	@bond:H32C29	$atom:H32	$atom:C29
+		$bond:C33C31	@bond:C33C31	$atom:C33	$atom:C31
+		$bond:C34C31	@bond:C34C31	$atom:C34	$atom:C31
+		$bond:H35C33	@bond:H35C33	$atom:H35	$atom:C33
+		$bond:C36C33	@bond:C36C33	$atom:C36	$atom:C33
+		$bond:H37C34	@bond:H37C34	$atom:H37	$atom:C34
+		$bond:C38C34	@bond:C38C34	$atom:C38	$atom:C34
+		$bond:H39C36	@bond:H39C36	$atom:H39	$atom:C36
+		$bond:C40C36	@bond:C40C36	$atom:C40	$atom:C36
+		$bond:O41C38	@bond:O41C38	$atom:O41	$atom:C38
+		$bond:O42C40	@bond:O42C40	$atom:O42	$atom:C40
+		$bond:C43O41	@bond:C43O41	$atom:C43	$atom:O41
+		$bond:H44O42	@bond:H44O42	$atom:H44	$atom:O42
+		$bond:H45C43	@bond:H45C43	$atom:H45	$atom:C43
+		$bond:H46C43	@bond:H46C43	$atom:H46	$atom:C43
+		$bond:H47C43	@bond:H47C43	$atom:H47	$atom:C43
+		$bond:C11C9	@bond:C11C9	$atom:C11	$atom:C9
+		$bond:C40C38	@bond:C40C38	$atom:C40	$atom:C38
+     }
+     write_once('In Settings') { 
+		bond_coeff	@bond:O2H1		553.00000	0.94500 
+		bond_coeff	@bond:C3O2		450.00000	1.36400 
+		bond_coeff	@bond:C4C3		469.00000	1.40000 
+		bond_coeff	@bond:C5C3		469.00000	1.40000 
+		bond_coeff	@bond:H6C4		367.00000	1.08000 
+		bond_coeff	@bond:C7C4		469.00000	1.40000 
+		bond_coeff	@bond:O8C5		450.00000	1.36400 
+		bond_coeff	@bond:C9C5		469.00000	1.40000 
+		bond_coeff	@bond:H10C7		367.00000	1.08000 
+		bond_coeff	@bond:C11C7		469.00000	1.40000 
+		bond_coeff	@bond:C12O8		320.00000	1.41000 
+		bond_coeff	@bond:H13C9		367.00000	1.08000 
+		bond_coeff	@bond:C14C11		427.00000	1.43300 
+		bond_coeff	@bond:H15C12		340.00000	1.09000 
+		bond_coeff	@bond:H16C12		340.00000	1.09000 
+		bond_coeff	@bond:H17C12		340.00000	1.09000 
+		bond_coeff	@bond:C18C14		549.00000	1.34000 
+		bond_coeff	@bond:H19C14		340.00000	1.08000 
+		bond_coeff	@bond:C20C18		410.00000	1.44400 
+		bond_coeff	@bond:H21C18		340.00000	1.08000 
+		bond_coeff	@bond:C22C20		317.00000	1.52200 
+		bond_coeff	@bond:O23C20		570.00000	1.22900 
+		bond_coeff	@bond:C24C22		317.00000	1.52200 
+		bond_coeff	@bond:H25C22		340.00000	1.09000 
+		bond_coeff	@bond:H26C22		340.00000	1.09000 
+		bond_coeff	@bond:C27C24		410.00000	1.44400 
+		bond_coeff	@bond:O28C24		570.00000	1.22900 
+		bond_coeff	@bond:C29C27		549.00000	1.34000 
+		bond_coeff	@bond:H30C27		340.00000	1.08000 
+		bond_coeff	@bond:C31C29		427.00000	1.43300 
+		bond_coeff	@bond:H32C29		340.00000	1.08000 
+		bond_coeff	@bond:C33C31		469.00000	1.40000 
+		bond_coeff	@bond:C34C31		469.00000	1.40000 
+		bond_coeff	@bond:H35C33		367.00000	1.08000 
+		bond_coeff	@bond:C36C33		469.00000	1.40000 
+		bond_coeff	@bond:H37C34		367.00000	1.08000 
+		bond_coeff	@bond:C38C34		469.00000	1.40000 
+		bond_coeff	@bond:H39C36		367.00000	1.08000 
+		bond_coeff	@bond:C40C36		469.00000	1.40000 
+		bond_coeff	@bond:O41C38		450.00000	1.36400 
+		bond_coeff	@bond:O42C40		450.00000	1.36400 
+		bond_coeff	@bond:C43O41		320.00000	1.41000 
+		bond_coeff	@bond:H44O42		553.00000	0.94500 
+		bond_coeff	@bond:H45C43		340.00000	1.09000 
+		bond_coeff	@bond:H46C43		340.00000	1.09000 
+		bond_coeff	@bond:H47C43		340.00000	1.09000 
+		bond_coeff	@bond:C11C9		469.00000	1.40000 
+		bond_coeff	@bond:C40C38		469.00000	1.40000 
+     }
+     write('Data Angles') { 
+		$angle:H1O2C3		@angle:H1O2C3  	$atom:H1	$atom:O2	$atom:C3
+		$angle:O2C3C4		@angle:O2C3C4  	$atom:O2	$atom:C3	$atom:C4
+		$angle:O2C3C5		@angle:O2C3C5  	$atom:O2	$atom:C3	$atom:C5
+		$angle:C3C4H6		@angle:C3C4H6  	$atom:C3	$atom:C4	$atom:H6
+		$angle:C3C4C7		@angle:C3C4C7  	$atom:C3	$atom:C4	$atom:C7
+		$angle:C3C5O8		@angle:C3C5O8  	$atom:C3	$atom:C5	$atom:O8
+		$angle:C3C5C9		@angle:C3C5C9  	$atom:C3	$atom:C5	$atom:C9
+		$angle:C4C7H10		@angle:C4C7H10  	$atom:C4	$atom:C7	$atom:H10
+		$angle:C4C7C11		@angle:C4C7C11  	$atom:C4	$atom:C7	$atom:C11
+		$angle:C5O8C12		@angle:C5O8C12  	$atom:C5	$atom:O8	$atom:C12
+		$angle:C5C9H13		@angle:C5C9H13  	$atom:C5	$atom:C9	$atom:H13
+		$angle:C7C11C14		@angle:C7C11C14  	$atom:C7	$atom:C11	$atom:C14
+		$angle:O8C12H15		@angle:O8C12H15  	$atom:O8	$atom:C12	$atom:H15
+		$angle:O8C12H16		@angle:O8C12H16  	$atom:O8	$atom:C12	$atom:H16
+		$angle:O8C12H17		@angle:O8C12H17  	$atom:O8	$atom:C12	$atom:H17
+		$angle:C11C14C18		@angle:C11C14C18  	$atom:C11	$atom:C14	$atom:C18
+		$angle:C11C14H19		@angle:C11C14H19  	$atom:C11	$atom:C14	$atom:H19
+		$angle:C14C18C20		@angle:C14C18C20  	$atom:C14	$atom:C18	$atom:C20
+		$angle:C14C18H21		@angle:C14C18H21  	$atom:C14	$atom:C18	$atom:H21
+		$angle:C18C20C22		@angle:C18C20C22  	$atom:C18	$atom:C20	$atom:C22
+		$angle:C18C20O23		@angle:C18C20O23  	$atom:C18	$atom:C20	$atom:O23
+		$angle:C20C22C24		@angle:C20C22C24  	$atom:C20	$atom:C22	$atom:C24
+		$angle:C20C22H25		@angle:C20C22H25  	$atom:C20	$atom:C22	$atom:H25
+		$angle:C20C22H26		@angle:C20C22H26  	$atom:C20	$atom:C22	$atom:H26
+		$angle:C22C24C27		@angle:C22C24C27  	$atom:C22	$atom:C24	$atom:C27
+		$angle:C22C24O28		@angle:C22C24O28  	$atom:C22	$atom:C24	$atom:O28
+		$angle:C24C27C29		@angle:C24C27C29  	$atom:C24	$atom:C27	$atom:C29
+		$angle:C24C27H30		@angle:C24C27H30  	$atom:C24	$atom:C27	$atom:H30
+		$angle:C27C29C31		@angle:C27C29C31  	$atom:C27	$atom:C29	$atom:C31
+		$angle:C27C29H32		@angle:C27C29H32  	$atom:C27	$atom:C29	$atom:H32
+		$angle:C29C31C33		@angle:C29C31C33  	$atom:C29	$atom:C31	$atom:C33
+		$angle:C29C31C34		@angle:C29C31C34  	$atom:C29	$atom:C31	$atom:C34
+		$angle:C31C33H35		@angle:C31C33H35  	$atom:C31	$atom:C33	$atom:H35
+		$angle:C31C33C36		@angle:C31C33C36  	$atom:C31	$atom:C33	$atom:C36
+		$angle:C31C34H37		@angle:C31C34H37  	$atom:C31	$atom:C34	$atom:H37
+		$angle:C31C34C38		@angle:C31C34C38  	$atom:C31	$atom:C34	$atom:C38
+		$angle:C33C36H39		@angle:C33C36H39  	$atom:C33	$atom:C36	$atom:H39
+		$angle:C33C36C40		@angle:C33C36C40  	$atom:C33	$atom:C36	$atom:C40
+		$angle:C34C38O41		@angle:C34C38O41  	$atom:C34	$atom:C38	$atom:O41
+		$angle:C36C40O42		@angle:C36C40O42  	$atom:C36	$atom:C40	$atom:O42
+		$angle:C38O41C43		@angle:C38O41C43  	$atom:C38	$atom:O41	$atom:C43
+		$angle:C40O42H44		@angle:C40O42H44  	$atom:C40	$atom:O42	$atom:H44
+		$angle:O41C43H45		@angle:O41C43H45  	$atom:O41	$atom:C43	$atom:H45
+		$angle:O41C43H46		@angle:O41C43H46  	$atom:O41	$atom:C43	$atom:H46
+		$angle:O41C43H47		@angle:O41C43H47  	$atom:O41	$atom:C43	$atom:H47
+		$angle:C20C18H21		@angle:C20C18H21  	$atom:C20	$atom:C18	$atom:H21
+		$angle:H16C12H17		@angle:H16C12H17  	$atom:H16	$atom:C12	$atom:H17
+		$angle:H35C33C36		@angle:H35C33C36  	$atom:H35	$atom:C33	$atom:C36
+		$angle:C24C22H25		@angle:C24C22H25  	$atom:C24	$atom:C22	$atom:H25
+		$angle:H15C12H16		@angle:H15C12H16  	$atom:H15	$atom:C12	$atom:H16
+		$angle:C36C40C38		@angle:C36C40C38  	$atom:C36	$atom:C40	$atom:C38
+		$angle:C38C40O42		@angle:C38C40O42  	$atom:C38	$atom:C40	$atom:O42
+		$angle:H6C4C7		@angle:H6C4C7  	$atom:H6	$atom:C4	$atom:C7
+		$angle:H10C7C11		@angle:H10C7C11  	$atom:H10	$atom:C7	$atom:C11
+		$angle:H39C36C40		@angle:H39C36C40  	$atom:H39	$atom:C36	$atom:C40
+		$angle:H46C43H47		@angle:H46C43H47  	$atom:H46	$atom:C43	$atom:H47
+		$angle:C24C22H26		@angle:C24C22H26  	$atom:C24	$atom:C22	$atom:H26
+		$angle:C27C24O28		@angle:C27C24O28  	$atom:C27	$atom:C24	$atom:O28
+		$angle:C40C38O41		@angle:C40C38O41  	$atom:C40	$atom:C38	$atom:O41
+		$angle:C5C9C11		@angle:C5C9C11  	$atom:C5	$atom:C9	$atom:C11
+		$angle:C31C29H32		@angle:C31C29H32  	$atom:C31	$atom:C29	$atom:H32
+		$angle:H45C43H46		@angle:H45C43H46  	$atom:H45	$atom:C43	$atom:H46
+		$angle:C4C3C5		@angle:C4C3C5  	$atom:C4	$atom:C3	$atom:C5
+		$angle:C18C14H19		@angle:C18C14H19  	$atom:C18	$atom:C14	$atom:H19
+		$angle:C22C20O23		@angle:C22C20O23  	$atom:C22	$atom:C20	$atom:O23
+		$angle:C29C27H30		@angle:C29C27H30  	$atom:C29	$atom:C27	$atom:H30
+		$angle:C34C38C40		@angle:C34C38C40  	$atom:C34	$atom:C38	$atom:C40
+		$angle:C7C11C9		@angle:C7C11C9  	$atom:C7	$atom:C11	$atom:C9
+		$angle:H45C43H47		@angle:H45C43H47  	$atom:H45	$atom:C43	$atom:H47
+		$angle:H25C22H26		@angle:H25C22H26  	$atom:H25	$atom:C22	$atom:H26
+		$angle:C11C9H13		@angle:C11C9H13  	$atom:C11	$atom:C9	$atom:H13
+		$angle:C9C11C14		@angle:C9C11C14  	$atom:C9	$atom:C11	$atom:C14
+		$angle:C33C31C34		@angle:C33C31C34  	$atom:C33	$atom:C31	$atom:C34
+		$angle:O8C5C9		@angle:O8C5C9  	$atom:O8	$atom:C5	$atom:C9
+		$angle:H37C34C38		@angle:H37C34C38  	$atom:H37	$atom:C34	$atom:C38
+		$angle:H15C12H17		@angle:H15C12H17  	$atom:H15	$atom:C12	$atom:H17
+     }
+     write_once('In Settings') { 
+		angle_coeff	@angle:H1O2C3		35.00000	113.00000
+		angle_coeff	@angle:O2C3C4		70.00000	120.00000
+		angle_coeff	@angle:O2C3C5		70.00000	120.00000
+		angle_coeff	@angle:C3C4H6		35.00000	120.00000
+		angle_coeff	@angle:C3C4C7		63.00000	120.00000
+		angle_coeff	@angle:C3C5O8		70.00000	120.00000
+		angle_coeff	@angle:C3C5C9		63.00000	120.00000
+		angle_coeff	@angle:C4C7H10		35.00000	120.00000
+		angle_coeff	@angle:C4C7C11		63.00000	120.00000
+		angle_coeff	@angle:C5O8C12		75.00000	111.00000
+		angle_coeff	@angle:C5C9H13		35.00000	120.00000
+		angle_coeff	@angle:C7C11C14		70.00000	124.00000
+		angle_coeff	@angle:O8C12H15		35.00000	109.50000
+		angle_coeff	@angle:O8C12H16		35.00000	109.50000
+		angle_coeff	@angle:O8C12H17		35.00000	109.50000
+		angle_coeff	@angle:C11C14C18		85.00000	117.00000
+		angle_coeff	@angle:C11C14H19		35.00000	123.30000
+		angle_coeff	@angle:C14C18C20		85.00000	120.70000
+		angle_coeff	@angle:C14C18H21		35.00000	120.00000
+		angle_coeff	@angle:C18C20C22		70.00000	116.00000
+		angle_coeff	@angle:C18C20O23		80.00000	125.30000
+		angle_coeff	@angle:C20C22C24		63.00000	111.10000
+		angle_coeff	@angle:C20C22H25		35.00000	109.50000
+		angle_coeff	@angle:C20C22H26		35.00000	109.50000
+		angle_coeff	@angle:C22C24C27		70.00000	116.00000
+		angle_coeff	@angle:C22C24O28		80.00000	120.40000
+		angle_coeff	@angle:C24C27C29		85.00000	120.70000
+		angle_coeff	@angle:C24C27H30		35.00000	119.70000
+		angle_coeff	@angle:C27C29C31		85.00000	117.00000
+		angle_coeff	@angle:C27C29H32		35.00000	120.00000
+		angle_coeff	@angle:C29C31C33		70.00000	124.00000
+		angle_coeff	@angle:C29C31C34		70.00000	124.00000
+		angle_coeff	@angle:C31C33H35		35.00000	120.00000
+		angle_coeff	@angle:C31C33C36		63.00000	120.00000
+		angle_coeff	@angle:C31C34H37		35.00000	120.00000
+		angle_coeff	@angle:C31C34C38		63.00000	120.00000
+		angle_coeff	@angle:C33C36H39		35.00000	120.00000
+		angle_coeff	@angle:C33C36C40		63.00000	120.00000
+		angle_coeff	@angle:C34C38O41		70.00000	120.00000
+		angle_coeff	@angle:C36C40O42		70.00000	120.00000
+		angle_coeff	@angle:C38O41C43		75.00000	111.00000
+		angle_coeff	@angle:C40O42H44		35.00000	113.00000
+		angle_coeff	@angle:O41C43H45		35.00000	109.50000
+		angle_coeff	@angle:O41C43H46		35.00000	109.50000
+		angle_coeff	@angle:O41C43H47		35.00000	109.50000
+		angle_coeff	@angle:C20C18H21		35.00000	119.70000
+		angle_coeff	@angle:H16C12H17		33.00000	107.80000
+		angle_coeff	@angle:H35C33C36		35.00000	120.00000
+		angle_coeff	@angle:C24C22H25		35.00000	109.50000
+		angle_coeff	@angle:H15C12H16		33.00000	107.80000
+		angle_coeff	@angle:C36C40C38		63.00000	120.00000
+		angle_coeff	@angle:C38C40O42		70.00000	120.00000
+		angle_coeff	@angle:H6C4C7		35.00000	120.00000
+		angle_coeff	@angle:H10C7C11		35.00000	120.00000
+		angle_coeff	@angle:H39C36C40		35.00000	120.00000
+		angle_coeff	@angle:H46C43H47		33.00000	107.80000
+		angle_coeff	@angle:C24C22H26		35.00000	109.50000
+		angle_coeff	@angle:C27C24O28		80.00000	125.30000
+		angle_coeff	@angle:C40C38O41		70.00000	120.00000
+		angle_coeff	@angle:C5C9C11		63.00000	120.00000
+		angle_coeff	@angle:C31C29H32		35.00000	123.30000
+		angle_coeff	@angle:H45C43H46		33.00000	107.80000
+		angle_coeff	@angle:C4C3C5		63.00000	120.00000
+		angle_coeff	@angle:C18C14H19		35.00000	120.00000
+		angle_coeff	@angle:C22C20O23		80.00000	120.40000
+		angle_coeff	@angle:C29C27H30		35.00000	120.00000
+		angle_coeff	@angle:C34C38C40		63.00000	120.00000
+		angle_coeff	@angle:C7C11C9		63.00000	120.00000
+		angle_coeff	@angle:H45C43H47		33.00000	107.80000
+		angle_coeff	@angle:H25C22H26		33.00000	107.80000
+		angle_coeff	@angle:C11C9H13		35.00000	120.00000
+		angle_coeff	@angle:C9C11C14		70.00000	124.00000
+		angle_coeff	@angle:C33C31C34		63.00000	120.00000
+		angle_coeff	@angle:O8C5C9		70.00000	120.00000
+		angle_coeff	@angle:H37C34C38		35.00000	120.00000
+		angle_coeff	@angle:H15C12H17		33.00000	107.80000
+     }
+     write('Data Dihedrals') { 
+		$dihedral:C4C3O2H1	@dihedral:C4C3O2H1	$atom:C4	$atom:C3	$atom:O2	$atom:H1
+		$dihedral:H6C4C3O2	@dihedral:H6C4C3O2	$atom:H6	$atom:C4	$atom:C3	$atom:O2
+		$dihedral:O8C5C3O2	@dihedral:O8C5C3O2	$atom:O8	$atom:C5	$atom:C3	$atom:O2
+		$dihedral:H10C7C4C3	@dihedral:H10C7C4C3	$atom:H10	$atom:C7	$atom:C4	$atom:C3
+		$dihedral:C12O8C5C3	@dihedral:C12O8C5C3	$atom:C12	$atom:O8	$atom:C5	$atom:C3
+		$dihedral:H15C12O8C5	@dihedral:H15C12O8C5	$atom:H15	$atom:C12	$atom:O8	$atom:C5
+		$dihedral:C18C14C11C7	@dihedral:C18C14C11C7	$atom:C18	$atom:C14	$atom:C11	$atom:C7
+		$dihedral:C20C18C14C11	@dihedral:C20C18C14C11	$atom:C20	$atom:C18	$atom:C14	$atom:C11
+		$dihedral:C22C20C18C14	@dihedral:C22C20C18C14	$atom:C22	$atom:C20	$atom:C18	$atom:C14
+		$dihedral:C24C22C20C18	@dihedral:C24C22C20C18	$atom:C24	$atom:C22	$atom:C20	$atom:C18
+		$dihedral:C27C24C22C20	@dihedral:C27C24C22C20	$atom:C27	$atom:C24	$atom:C22	$atom:C20
+		$dihedral:C29C27C24C22	@dihedral:C29C27C24C22	$atom:C29	$atom:C27	$atom:C24	$atom:C22
+		$dihedral:C31C29C27C24	@dihedral:C31C29C27C24	$atom:C31	$atom:C29	$atom:C27	$atom:C24
+		$dihedral:C33C31C29C27	@dihedral:C33C31C29C27	$atom:C33	$atom:C31	$atom:C29	$atom:C27
+		$dihedral:H35C33C31C29	@dihedral:H35C33C31C29	$atom:H35	$atom:C33	$atom:C31	$atom:C29
+		$dihedral:H37C34C31C29	@dihedral:H37C34C31C29	$atom:H37	$atom:C34	$atom:C31	$atom:C29
+		$dihedral:H39C36C33C31	@dihedral:H39C36C33C31	$atom:H39	$atom:C36	$atom:C33	$atom:C31
+		$dihedral:C43O41C38C34	@dihedral:C43O41C38C34	$atom:C43	$atom:O41	$atom:C38	$atom:C34
+		$dihedral:H44O42C40C36	@dihedral:H44O42C40C36	$atom:H44	$atom:O42	$atom:C40	$atom:C36
+		$dihedral:H45C43O41C38	@dihedral:H45C43O41C38	$atom:H45	$atom:C43	$atom:O41	$atom:C38
+		$dihedral:C31C29C27H30	@dihedral:C31C29C27H30	$atom:C31	$atom:C29	$atom:C27	$atom:H30
+		$dihedral:C11C9C5C3	@dihedral:C11C9C5C3	$atom:C11	$atom:C9	$atom:C5	$atom:C3
+		$dihedral:C18C14C11C9	@dihedral:C18C14C11C9	$atom:C18	$atom:C14	$atom:C11	$atom:C9
+		$dihedral:O8C5C3C4	@dihedral:O8C5C3C4	$atom:O8	$atom:C5	$atom:C3	$atom:C4
+		$dihedral:O28C24C22H26	@dihedral:O28C24C22H26	$atom:O28	$atom:C24	$atom:C22	$atom:H26
+		$dihedral:C36C33C31C29	@dihedral:C36C33C31C29	$atom:C36	$atom:C33	$atom:C31	$atom:C29
+		$dihedral:C7C11C9C5	@dihedral:C7C11C9C5	$atom:C7	$atom:C11	$atom:C9	$atom:C5
+		$dihedral:C22C20C18H21	@dihedral:C22C20C18H21	$atom:C22	$atom:C20	$atom:C18	$atom:H21
+		$dihedral:O28C24C22H25	@dihedral:O28C24C22H25	$atom:O28	$atom:C24	$atom:C22	$atom:H25
+		$dihedral:C27C24C22H26	@dihedral:C27C24C22H26	$atom:C27	$atom:C24	$atom:C22	$atom:H26
+		$dihedral:H19C14C11C9	@dihedral:H19C14C11C9	$atom:H19	$atom:C14	$atom:C11	$atom:C9
+		$dihedral:H13C9C11C7	@dihedral:H13C9C11C7	$atom:H13	$atom:C9	$atom:C11	$atom:C7
+		$dihedral:C40C38C34C31	@dihedral:C40C38C34C31	$atom:C40	$atom:C38	$atom:C34	$atom:C31
+		$dihedral:C38C34C31C33	@dihedral:C38C34C31C33	$atom:C38	$atom:C34	$atom:C31	$atom:C33
+		$dihedral:C9C5C3C4	@dihedral:C9C5C3C4	$atom:C9	$atom:C5	$atom:C3	$atom:C4
+		$dihedral:C12O8C5C9	@dihedral:C12O8C5C9	$atom:C12	$atom:O8	$atom:C5	$atom:C9
+		$dihedral:O23C20C18H21	@dihedral:O23C20C18H21	$atom:O23	$atom:C20	$atom:C18	$atom:H21
+		$dihedral:H21C18C14C11	@dihedral:H21C18C14C11	$atom:H21	$atom:C18	$atom:C14	$atom:C11
+		$dihedral:H46C43O41C38	@dihedral:H46C43O41C38	$atom:H46	$atom:C43	$atom:O41	$atom:C38
+		$dihedral:C11C7C4H6	@dihedral:C11C7C4H6	$atom:C11	$atom:C7	$atom:C4	$atom:H6
+		$dihedral:H26C22C20O23	@dihedral:H26C22C20O23	$atom:H26	$atom:C22	$atom:C20	$atom:O23
+		$dihedral:C14C11C7H10	@dihedral:C14C11C7H10	$atom:C14	$atom:C11	$atom:C7	$atom:H10
+		$dihedral:H21C18C14H19	@dihedral:H21C18C14H19	$atom:H21	$atom:C18	$atom:C14	$atom:H19
+		$dihedral:C34C31C29C27	@dihedral:C34C31C29C27	$atom:C34	$atom:C31	$atom:C29	$atom:C27
+		$dihedral:H32C29C27H30	@dihedral:H32C29C27H30	$atom:H32	$atom:C29	$atom:C27	$atom:H30
+		$dihedral:C29C27C24O28	@dihedral:C29C27C24O28	$atom:C29	$atom:C27	$atom:C24	$atom:O28
+		$dihedral:H26C22C20C18	@dihedral:H26C22C20C18	$atom:H26	$atom:C22	$atom:C20	$atom:C18
+		$dihedral:C24C22C20O23	@dihedral:C24C22C20O23	$atom:C24	$atom:C22	$atom:C20	$atom:O23
+		$dihedral:O42C40C38O41	@dihedral:O42C40C38O41	$atom:O42	$atom:C40	$atom:C38	$atom:O41
+		$dihedral:C40C38C34H37	@dihedral:C40C38C34H37	$atom:C40	$atom:C38	$atom:C34	$atom:H37
+		$dihedral:O41C38C34H37	@dihedral:O41C38C34H37	$atom:O41	$atom:C38	$atom:C34	$atom:H37
+		$dihedral:O28C24C22C20	@dihedral:O28C24C22C20	$atom:O28	$atom:C24	$atom:C22	$atom:C20
+		$dihedral:C11C9C5O8	@dihedral:C11C9C5O8	$atom:C11	$atom:C9	$atom:C5	$atom:O8
+		$dihedral:C43O41C38C40	@dihedral:C43O41C38C40	$atom:C43	$atom:O41	$atom:C38	$atom:C40
+		$dihedral:H13C9C5C3	@dihedral:H13C9C5C3	$atom:H13	$atom:C9	$atom:C5	$atom:C3
+		$dihedral:O42C40C36H39	@dihedral:O42C40C36H39	$atom:O42	$atom:C40	$atom:C36	$atom:H39
+		$dihedral:C7C4C3O2	@dihedral:C7C4C3O2	$atom:C7	$atom:C4	$atom:C3	$atom:O2
+		$dihedral:C9C5C3O2	@dihedral:C9C5C3O2	$atom:C9	$atom:C5	$atom:C3	$atom:O2
+		$dihedral:O41C38C40C36	@dihedral:O41C38C40C36	$atom:O41	$atom:C38	$atom:C40	$atom:C36
+		$dihedral:C36C33C31C34	@dihedral:C36C33C31C34	$atom:C36	$atom:C33	$atom:C31	$atom:C34
+		$dihedral:C36C40C38C34	@dihedral:C36C40C38C34	$atom:C36	$atom:C40	$atom:C38	$atom:C34
+		$dihedral:O42C40C36C33	@dihedral:O42C40C36C33	$atom:O42	$atom:C40	$atom:C36	$atom:C33
+		$dihedral:O23C20C18C14	@dihedral:O23C20C18C14	$atom:O23	$atom:C20	$atom:C18	$atom:C14
+		$dihedral:C11C7C4C3	@dihedral:C11C7C4C3	$atom:C11	$atom:C7	$atom:C4	$atom:C3
+		$dihedral:C33C31C29H32	@dihedral:C33C31C29H32	$atom:C33	$atom:C31	$atom:C29	$atom:H32
+		$dihedral:H25C22C20O23	@dihedral:H25C22C20O23	$atom:H25	$atom:C22	$atom:C20	$atom:O23
+		$dihedral:H10C7C11C9	@dihedral:H10C7C11C9	$atom:H10	$atom:C7	$atom:C11	$atom:C9
+		$dihedral:H32C29C27C24	@dihedral:H32C29C27C24	$atom:H32	$atom:C29	$atom:C27	$atom:C24
+		$dihedral:C27C24C22H25	@dihedral:C27C24C22H25	$atom:C27	$atom:C24	$atom:C22	$atom:H25
+		$dihedral:H6C4C3C5	@dihedral:H6C4C3C5	$atom:H6	$atom:C4	$atom:C3	$atom:C5
+		$dihedral:H47C43O41C38	@dihedral:H47C43O41C38	$atom:H47	$atom:C43	$atom:O41	$atom:C38
+		$dihedral:C40C36C33C31	@dihedral:C40C36C33C31	$atom:C40	$atom:C36	$atom:C33	$atom:C31
+		$dihedral:H30C27C24O28	@dihedral:H30C27C24O28	$atom:H30	$atom:C27	$atom:C24	$atom:O28
+		$dihedral:H37C34C31C33	@dihedral:H37C34C31C33	$atom:H37	$atom:C34	$atom:C31	$atom:C33
+		$dihedral:C14C11C9H13	@dihedral:C14C11C9H13	$atom:C14	$atom:C11	$atom:C9	$atom:H13
+		$dihedral:C7C4C3C5	@dihedral:C7C4C3C5	$atom:C7	$atom:C4	$atom:C3	$atom:C5
+		$dihedral:H19C14C11C7	@dihedral:H19C14C11C7	$atom:H19	$atom:C14	$atom:C11	$atom:C7
+		$dihedral:C20C18C14H19	@dihedral:C20C18C14H19	$atom:C20	$atom:C18	$atom:C14	$atom:H19
+		$dihedral:C5C3O2H1	@dihedral:C5C3O2H1	$atom:C5	$atom:C3	$atom:O2	$atom:H1
+		$dihedral:H16C12O8C5	@dihedral:H16C12O8C5	$atom:H16	$atom:C12	$atom:O8	$atom:C5
+		$dihedral:H13C9C5O8	@dihedral:H13C9C5O8	$atom:H13	$atom:C9	$atom:C5	$atom:O8
+		$dihedral:C38C34C31C29	@dihedral:C38C34C31C29	$atom:C38	$atom:C34	$atom:C31	$atom:C29
+		$dihedral:H25C22C20C18	@dihedral:H25C22C20C18	$atom:H25	$atom:C22	$atom:C20	$atom:C18
+		$dihedral:C14C11C7C4	@dihedral:C14C11C7C4	$atom:C14	$atom:C11	$atom:C7	$atom:C4
+		$dihedral:H35C33C31C34	@dihedral:H35C33C31C34	$atom:H35	$atom:C33	$atom:C31	$atom:C34
+		$dihedral:C9C11C7C4	@dihedral:C9C11C7C4	$atom:C9	$atom:C11	$atom:C7	$atom:C4
+		$dihedral:H39C36C33H35	@dihedral:H39C36C33H35	$atom:H39	$atom:C36	$atom:C33	$atom:H35
+		$dihedral:C14C11C9C5	@dihedral:C14C11C9C5	$atom:C14	$atom:C11	$atom:C9	$atom:C5
+		$dihedral:O42C40C38C34	@dihedral:O42C40C38C34	$atom:O42	$atom:C40	$atom:C38	$atom:C34
+		$dihedral:H17C12O8C5	@dihedral:H17C12O8C5	$atom:H17	$atom:C12	$atom:O8	$atom:C5
+		$dihedral:C34C31C29H32	@dihedral:C34C31C29H32	$atom:C34	$atom:C31	$atom:C29	$atom:H32
+		$dihedral:C38C40C36C33	@dihedral:C38C40C36C33	$atom:C38	$atom:C40	$atom:C36	$atom:C33
+		$dihedral:O41C38C34C31	@dihedral:O41C38C34C31	$atom:O41	$atom:C38	$atom:C34	$atom:C31
+		$dihedral:H44O42C40C38	@dihedral:H44O42C40C38	$atom:H44	$atom:O42	$atom:C40	$atom:C38
+		$dihedral:H10C7C4H6	@dihedral:H10C7C4H6	$atom:H10	$atom:C7	$atom:C4	$atom:H6
+		$dihedral:C40C36C33H35	@dihedral:C40C36C33H35	$atom:C40	$atom:C36	$atom:C33	$atom:H35
+		$dihedral:H30C27C24C22	@dihedral:H30C27C24C22	$atom:H30	$atom:C27	$atom:C24	$atom:C22
+		$dihedral:H39C36C40C38	@dihedral:H39C36C40C38	$atom:H39	$atom:C36	$atom:C40	$atom:C38
+     }
+     write_once('In Settings') { 
+		dihedral_coeff	@dihedral:C4C3O2H1		0.00000	1.68200	0.00000	0.00000
+		dihedral_coeff	@dihedral:H6C4C3O2		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O8C5C3O2		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H10C7C4C3		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C12O8C5C3		0.00000	3.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H15C12O8C5		0.00000	0.00000	0.76000	0.00000
+		dihedral_coeff	@dihedral:C18C14C11C7		1.24100	3.35300	-0.28600	0.00000
+		dihedral_coeff	@dihedral:C20C18C14C11		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C22C20C18C14		0.34600	0.40500	-0.90400	0.00000
+		dihedral_coeff	@dihedral:C24C22C20C18		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C27C24C22C20		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C29C27C24C22		0.34600	0.40500	-0.90400	0.00000
+		dihedral_coeff	@dihedral:C31C29C27C24		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C33C31C29C27		1.24100	3.35300	-0.28600	0.00000
+		dihedral_coeff	@dihedral:H35C33C31C29		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H37C34C31C29		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H39C36C33C31		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C43O41C38C34		0.00000	3.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H44O42C40C36		0.00000	1.68200	0.00000	0.00000
+		dihedral_coeff	@dihedral:H45C43O41C38		0.00000	0.00000	0.76000	0.00000
+		dihedral_coeff	@dihedral:C31C29C27H30		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C11C9C5C3		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C18C14C11C9		1.24100	3.35300	-0.28600	0.00000
+		dihedral_coeff	@dihedral:O8C5C3C4		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O28C24C22H26		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C36C33C31C29		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C7C11C9C5		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C22C20C18H21		0.00000	0.00000	0.27500	0.00000
+		dihedral_coeff	@dihedral:O28C24C22H25		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C27C24C22H26		0.00000	0.00000	0.27500	0.00000
+		dihedral_coeff	@dihedral:H19C14C11C9		0.00000	0.00000	-0.37200	0.00000
+		dihedral_coeff	@dihedral:H13C9C11C7		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C40C38C34C31		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C38C34C31C33		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C9C5C3C4		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C12O8C5C9		0.00000	3.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O23C20C18H21		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H21C18C14C11		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H46C43O41C38		0.00000	0.00000	0.76000	0.00000
+		dihedral_coeff	@dihedral:C11C7C4H6		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H26C22C20O23		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C14C11C7H10		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H21C18C14H19		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C34C31C29C27		1.24100	3.35300	-0.28600	0.00000
+		dihedral_coeff	@dihedral:H32C29C27H30		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C29C27C24O28		2.50000	6.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H26C22C20C18		0.00000	0.00000	0.27500	0.00000
+		dihedral_coeff	@dihedral:C24C22C20O23		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O42C40C38O41		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C40C38C34H37		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O41C38C34H37		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O28C24C22C20		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C11C9C5O8		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C43O41C38C40		0.00000	3.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H13C9C5C3		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O42C40C36H39		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C7C4C3O2		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C9C5C3O2		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O41C38C40C36		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C36C33C31C34		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C36C40C38C34		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O42C40C36C33		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O23C20C18C14		2.50000	6.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C11C7C4C3		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C33C31C29H32		0.00000	0.00000	-0.37200	0.00000
+		dihedral_coeff	@dihedral:H25C22C20O23		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H10C7C11C9		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H32C29C27C24		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C27C24C22H25		0.00000	0.00000	0.27500	0.00000
+		dihedral_coeff	@dihedral:H6C4C3C5		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H47C43O41C38		0.00000	0.00000	0.76000	0.00000
+		dihedral_coeff	@dihedral:C40C36C33C31		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H30C27C24O28		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H37C34C31C33		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C14C11C9H13		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C7C4C3C5		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H19C14C11C7		0.00000	0.00000	-0.37200	0.00000
+		dihedral_coeff	@dihedral:C20C18C14H19		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C5C3O2H1		0.00000	1.68200	0.00000	0.00000
+		dihedral_coeff	@dihedral:H16C12O8C5		0.00000	0.00000	0.76000	0.00000
+		dihedral_coeff	@dihedral:H13C9C5O8		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C38C34C31C29		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H25C22C20C18		0.00000	0.00000	0.27500	0.00000
+		dihedral_coeff	@dihedral:C14C11C7C4		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H35C33C31C34		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C9C11C7C4		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H39C36C33H35		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C14C11C9C5		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O42C40C38C34		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H17C12O8C5		0.00000	0.00000	0.76000	0.00000
+		dihedral_coeff	@dihedral:C34C31C29H32		0.00000	0.00000	-0.37200	0.00000
+		dihedral_coeff	@dihedral:C38C40C36C33		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:O41C38C34C31		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H44O42C40C38		0.00000	1.68200	0.00000	0.00000
+		dihedral_coeff	@dihedral:H10C7C4H6		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C40C36C33H35		0.00000	7.25000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H30C27C24C22		0.00000	0.00000	0.27500	0.00000
+		dihedral_coeff	@dihedral:H39C36C40C38		0.00000	7.25000	0.00000	0.00000
+     }
+     write('Data Impropers') { 
+		$improper:C3O2C4C5	@improper:C3O2C4C5	$atom:C3	$atom:O2	$atom:C4	$atom:C5
+		$improper:C4C3H6C7	@improper:C4C3H6C7	$atom:C4	$atom:C3	$atom:H6	$atom:C7
+		$improper:C5C9C3O8	@improper:C5C9C3O8	$atom:C5	$atom:C9	$atom:C3	$atom:O8
+		$improper:C7H10C11C4	@improper:C7H10C11C4	$atom:C7	$atom:H10	$atom:C11	$atom:C4
+		$improper:C9C5C11H13	@improper:C9C5C11H13	$atom:C9	$atom:C5	$atom:C11	$atom:H13
+		$improper:C11C9C14C7	@improper:C11C9C14C7	$atom:C11	$atom:C9	$atom:C14	$atom:C7
+		$improper:C12O8H15H16	@improper:C12O8H15H16	$atom:C12	$atom:O8	$atom:H15	$atom:H16
+		$improper:C12H17H15O8	@improper:C12H17H15O8	$atom:C12	$atom:H17	$atom:H15	$atom:O8
+		$improper:C14C18H19C11	@improper:C14C18H19C11	$atom:C14	$atom:C18	$atom:H19	$atom:C11
+		$improper:C18C20H21C14	@improper:C18C20H21C14	$atom:C18	$atom:C20	$atom:H21	$atom:C14
+		$improper:C20C18C22O23	@improper:C20C18C22O23	$atom:C20	$atom:C18	$atom:C22	$atom:O23
+		$improper:C22H25C20C24	@improper:C22H25C20C24	$atom:C22	$atom:H25	$atom:C20	$atom:C24
+		$improper:C22H26C20C24	@improper:C22H26C20C24	$atom:C22	$atom:H26	$atom:C20	$atom:C24
+		$improper:C24C27O28C22	@improper:C24C27O28C22	$atom:C24	$atom:C27	$atom:O28	$atom:C22
+		$improper:C27C29H30C24	@improper:C27C29H30C24	$atom:C27	$atom:C29	$atom:H30	$atom:C24
+		$improper:C29C27C31H32	@improper:C29C27C31H32	$atom:C29	$atom:C27	$atom:C31	$atom:H32
+		$improper:C31C33C34C29	@improper:C31C33C34C29	$atom:C31	$atom:C33	$atom:C34	$atom:C29
+		$improper:C33H35C36C31	@improper:C33H35C36C31	$atom:C33	$atom:H35	$atom:C36	$atom:C31
+		$improper:C34H37C38C31	@improper:C34H37C38C31	$atom:C34	$atom:H37	$atom:C38	$atom:C31
+		$improper:C36C33H39C40	@improper:C36C33H39C40	$atom:C36	$atom:C33	$atom:H39	$atom:C40
+		$improper:C38O41C34C40	@improper:C38O41C34C40	$atom:C38	$atom:O41	$atom:C34	$atom:C40
+		$improper:C40O42C36C38	@improper:C40O42C36C38	$atom:C40	$atom:O42	$atom:C36	$atom:C38
+		$improper:C43O41H45H46	@improper:C43O41H45H46	$atom:C43	$atom:O41	$atom:H45	$atom:H46
+		$improper:C43O41H45H47	@improper:C43O41H45H47	$atom:C43	$atom:O41	$atom:H45	$atom:H47
+     }
+     write_once('In Settings') { 
+		improper_coeff	@improper:C3O2C4C5		2.50000	-1	2
+		improper_coeff	@improper:C4C3H6C7		2.50000	-1	2
+		improper_coeff	@improper:C5C9C3O8		2.50000	-1	2
+		improper_coeff	@improper:C7H10C11C4		2.50000	-1	2
+		improper_coeff	@improper:C9C5C11H13		2.50000	-1	2
+		improper_coeff	@improper:C11C9C14C7		2.50000	-1	2
+		improper_coeff	@improper:C12O8H15H16		0.00000	-1	2
+		improper_coeff	@improper:C12H17H15O8		0.00000	-1	2
+		improper_coeff	@improper:C14C18H19C11		2.50000	-1	2
+		improper_coeff	@improper:C18C20H21C14		2.50000	-1	2
+		improper_coeff	@improper:C20C18C22O23		10.50000	-1	2
+		improper_coeff	@improper:C22H25C20C24		0.00000	-1	2
+		improper_coeff	@improper:C22H26C20C24		0.00000	-1	2
+		improper_coeff	@improper:C24C27O28C22		10.50000	-1	2
+		improper_coeff	@improper:C27C29H30C24		2.50000	-1	2
+		improper_coeff	@improper:C29C27C31H32		2.50000	-1	2
+		improper_coeff	@improper:C31C33C34C29		2.50000	-1	2
+		improper_coeff	@improper:C33H35C36C31		2.50000	-1	2
+		improper_coeff	@improper:C34H37C38C31		2.50000	-1	2
+		improper_coeff	@improper:C36C33H39C40		2.50000	-1	2
+		improper_coeff	@improper:C38O41C34C40		2.50000	-1	2
+		improper_coeff	@improper:C40O42C36C38		2.50000	-1	2
+		improper_coeff	@improper:C43O41H45H46		0.00000	-1	2
+		improper_coeff	@improper:C43O41H45H47		0.00000	-1	2
+     }
+}

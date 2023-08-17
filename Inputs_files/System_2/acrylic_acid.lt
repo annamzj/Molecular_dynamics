@@ -1,0 +1,107 @@
+#################################################################################
+#Archivo en formato moltemplate, traducido a partir de la salida tipo lammps
+#producida por la aplicacion en linea LiParGen
+#################################################################################
+acrylic_acid { 
+     write('Data Atoms') { 
+		$atom:O1	$mol:.	@atom:O1	-0.44450	0.96704	1.00116	0.03148	
+		$atom:C2	$mol:.	@atom:C2	0.55380	-0.23497	0.99975	-0.00344	
+		$atom:O3	$mol:.	@atom:O3	-0.55000	-0.94658	1.00001	1.15394	
+		$atom:C4	$mol:.	@atom:C4	-0.28520	-0.98248	0.99812	-1.29450	
+		$atom:C5	$mol:.	@atom:C5	-0.18140	-2.30498	0.99990	-1.45349	
+		$atom:H6	$mol:.	@atom:H6	0.45520	-1.89498	0.99773	0.97949	
+		$atom:H7	$mol:.	@atom:H7	0.17690	-0.32304	0.99574	-2.15497	
+		$atom:H8	$mol:.	@atom:H8	0.13760	-3.01278	1.00283	-0.62860	
+		$atom:H9	$mol:.	@atom:H9	0.13760	-2.74723	0.99874	-2.44292	
+     }
+
+     write_once('Data Masses') { 
+        @atom:O1    15.99900
+        @atom:C2    12.01100
+        @atom:O3    15.99900
+        @atom:C4    12.01100
+        @atom:C5    12.01100
+        @atom:H6    1.00800
+        @atom:H7    1.00800
+        @atom:H8    1.00800
+        @atom:H9    1.00800
+     }
+     write('Data Bonds') { 
+		$bond:C2O1	@bond:C2O1	$atom:C2	$atom:O1
+		$bond:O3C2	@bond:O3C2	$atom:O3	$atom:C2
+		$bond:C4C2	@bond:C4C2	$atom:C4	$atom:C2
+		$bond:C5C4	@bond:C5C4	$atom:C5	$atom:C4
+		$bond:H6O3	@bond:H6O3	$atom:H6	$atom:O3
+		$bond:H7C4	@bond:H7C4	$atom:H7	$atom:C4
+		$bond:H8C5	@bond:H8C5	$atom:H8	$atom:C5
+		$bond:H9C5	@bond:H9C5	$atom:H9	$atom:C5
+     }
+     write_once('In Settings') { 
+		bond_coeff	@bond:C2O1		570.00000	1.22900 
+		bond_coeff	@bond:O3C2		450.00000	1.36400 
+		bond_coeff	@bond:C4C2		410.00000	1.44400 
+		bond_coeff	@bond:C5C4		549.00000	1.34000 
+		bond_coeff	@bond:H6O3		553.00000	0.94500 
+		bond_coeff	@bond:H7C4		340.00000	1.08000 
+		bond_coeff	@bond:H8C5		340.00000	1.08000 
+		bond_coeff	@bond:H9C5		340.00000	1.08000 
+     }
+     write('Data Angles') { 
+		$angle:O1C2O3		@angle:O1C2O3  	$atom:O1	$atom:C2	$atom:O3
+		$angle:O1C2C4		@angle:O1C2C4  	$atom:O1	$atom:C2	$atom:C4
+		$angle:C2C4C5		@angle:C2C4C5  	$atom:C2	$atom:C4	$atom:C5
+		$angle:C2O3H6		@angle:C2O3H6  	$atom:C2	$atom:O3	$atom:H6
+		$angle:C2C4H7		@angle:C2C4H7  	$atom:C2	$atom:C4	$atom:H7
+		$angle:C4C5H8		@angle:C4C5H8  	$atom:C4	$atom:C5	$atom:H8
+		$angle:C4C5H9		@angle:C4C5H9  	$atom:C4	$atom:C5	$atom:H9
+		$angle:O3C2C4		@angle:O3C2C4  	$atom:O3	$atom:C2	$atom:C4
+		$angle:C5C4H7		@angle:C5C4H7  	$atom:C5	$atom:C4	$atom:H7
+		$angle:H8C5H9		@angle:H8C5H9  	$atom:H8	$atom:C5	$atom:H9
+     }
+     write_once('In Settings') { 
+		angle_coeff	@angle:O1C2O3		80.00000	121.00000
+		angle_coeff	@angle:O1C2C4		80.00000	125.30000
+		angle_coeff	@angle:C2C4C5		85.00000	120.70000
+		angle_coeff	@angle:C2O3H6		35.00000	113.00000
+		angle_coeff	@angle:C2C4H7		35.00000	119.70000
+		angle_coeff	@angle:C4C5H8		35.00000	120.00000
+		angle_coeff	@angle:C4C5H9		35.00000	120.00000
+		angle_coeff	@angle:O3C2C4		70.00000	120.00000
+		angle_coeff	@angle:C5C4H7		35.00000	120.00000
+		angle_coeff	@angle:H8C5H9		35.00000	117.00000
+     }
+     write('Data Dihedrals') { 
+		$dihedral:C5C4C2O1	@dihedral:C5C4C2O1	$atom:C5	$atom:C4	$atom:C2	$atom:O1
+		$dihedral:H6O3C2O1	@dihedral:H6O3C2O1	$atom:H6	$atom:O3	$atom:C2	$atom:O1
+		$dihedral:H8C5C4C2	@dihedral:H8C5C4C2	$atom:H8	$atom:C5	$atom:C4	$atom:C2
+		$dihedral:H6O3C2C4	@dihedral:H6O3C2C4	$atom:H6	$atom:O3	$atom:C2	$atom:C4
+		$dihedral:H9C5C4H7	@dihedral:H9C5C4H7	$atom:H9	$atom:C5	$atom:C4	$atom:H7
+		$dihedral:H9C5C4C2	@dihedral:H9C5C4C2	$atom:H9	$atom:C5	$atom:C4	$atom:C2
+		$dihedral:H7C4C2O3	@dihedral:H7C4C2O3	$atom:H7	$atom:C4	$atom:C2	$atom:O3
+		$dihedral:C5C4C2O3	@dihedral:C5C4C2O3	$atom:C5	$atom:C4	$atom:C2	$atom:O3
+		$dihedral:H8C5C4H7	@dihedral:H8C5C4H7	$atom:H8	$atom:C5	$atom:C4	$atom:H7
+		$dihedral:H7C4C2O1	@dihedral:H7C4C2O1	$atom:H7	$atom:C4	$atom:C2	$atom:O1
+     }
+     write_once('In Settings') { 
+		dihedral_coeff	@dihedral:C5C4C2O1		2.50000	6.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H6O3C2O1		0.00000	5.50000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H8C5C4C2		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H6O3C2C4		1.50000	5.50000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H9C5C4H7		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H9C5C4C2		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H7C4C2O3		0.00000	0.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:C5C4C2O3		3.20000	-3.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H8C5C4H7		0.00000	14.00000	0.00000	0.00000
+		dihedral_coeff	@dihedral:H7C4C2O1		0.00000	0.00000	0.00000	0.00000
+     }
+     write('Data Impropers') { 
+		$improper:C2O1O3C4	@improper:C2O1O3C4	$atom:C2	$atom:O1	$atom:O3	$atom:C4
+		$improper:C4C2C5H7	@improper:C4C2C5H7	$atom:C4	$atom:C2	$atom:C5	$atom:H7
+		$improper:C5H9C4H8	@improper:C5H9C4H8	$atom:C5	$atom:H9	$atom:C4	$atom:H8
+     }
+     write_once('In Settings') { 
+		improper_coeff	@improper:C2O1O3C4		10.50000	-1	2
+		improper_coeff	@improper:C4C2C5H7		2.50000	-1	2
+		improper_coeff	@improper:C5H9C4H8		2.50000	-1	2
+     }
+}
